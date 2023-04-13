@@ -7,15 +7,10 @@ namespace Ejercicios_1
     /// </summary>
     public class Ejercicio02 : MonoBehaviour
     {
-        
-
         void Start()
-        {
-          
+        {     
             GameObject Cube = new GameObject("Ejercicio02");
             Cube.transform.position = new Vector3(111.1f, -5f, 4.5f);
-
         }
-
     }
 }

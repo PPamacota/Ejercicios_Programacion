@@ -2,20 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Crear un script que genere 30 GameObjects al inicio
-/// </summary>
-
-public class Ejercicio05 : MonoBehaviour
+namespace Ejercicios_1
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Crear un script que genere 30 GameObjects al inicio
+    /// </summary>
+    public class Ejercicio05 : MonoBehaviour
     {
-        for (int i = 0; i < 30; i++)
+        void Start()
         {
-            GameObject go2 = new GameObject($"Soy {i}");
+            for (int i = 0; i < 30; i++)
+            {
+                GameObject go2 = new GameObject($"Soy {i}");
+            }
         }
     }
-
-    
 }

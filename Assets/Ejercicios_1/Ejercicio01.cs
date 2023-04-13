@@ -7,12 +7,9 @@ namespace Ejercicios_1
     /// </summary>
     public class Ejercicio01 : MonoBehaviour
     {
-
-         void Start()
+        void Start()
         {
-            GameObject gameObject = new GameObject("Ejercicio01");
-            
+            GameObject gameObject = new GameObject("Ejercicio01");            
         }
-
     } 
 }
